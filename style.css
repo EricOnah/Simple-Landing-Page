@@ -58,19 +58,53 @@ h2 {
 
 .card {
   border-radius: 20px;
+  border: none;
 }
 
 .card__one {
-  border: none;
   background-color: rgb(191, 246, 253);
+}
+
+.card__two {
+  background-color: rgb(253, 233, 160);
+}
+.card__three {
+  background-color: rgb(253, 191, 134);
+}
+.card__four {
+  background-color: #b8fda0;
 }
 
 .card-head__img {
   width: 200px;
 }
 
-.card-text {
+.card-two__img {
+  width: 155px;
+}
+.card-three__img {
+  width: 155px;
+}
+.card-four__img {
+  width: 150px;
+}
+
+.card-text__one {
   color: rgb(0, 88, 134);
+}
+.card-text__two {
+  color: rgb(100, 96, 61);
+}
+.card-text__three {
+  color: #664e36;
+}
+
+.card-text__four {
+  color: #4a663e;
+}
+
+.items {
+  /* margin-top: 50px; */
 }
 
 .card-btn__one {
@@ -79,4 +113,36 @@ h2 {
   color: #fff;
   width: 150px;
   font-weight: 600;
+}
+.card-btn__two {
+  border-radius: 20px;
+  background-color: rgb(100, 96, 61);
+  color: #fff;
+  width: 150px;
+  font-weight: 600;
+}
+.card-btn__three {
+  border-radius: 20px;
+  background-color: #664e36;
+  color: #fff;
+  width: 150px;
+  font-weight: 600;
+}
+.card-btn__four {
+  border-radius: 20px;
+  background-color: #4a663e;
+  color: #fff;
+  width: 150px;
+  font-weight: 600;
+}
+
+#footer {
+  position: relative;
+  font-weight: 700;
+  margin-top: 80px;
+}
+
+.footer__copyright {
+  position: relative;
+  top: -25px;
 }
