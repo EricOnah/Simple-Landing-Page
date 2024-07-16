@@ -191,6 +191,8 @@ h2 {
   }
   .items {
     width: 100%;
-    margin: 0 auto;
+    position: relative;
+    transform: translate(50%, 50%, 50%, 80%);
+    left: -25px;
   }
 }
