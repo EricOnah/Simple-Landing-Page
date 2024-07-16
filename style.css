@@ -187,3 +187,16 @@ h2 {
     padding-bottom: 30px;
   }
 }
+
+@media (max-width: 600px) {
+  .card-head__img {
+    width: 100px;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .card-btn__one {
+    padding: 5px;
+  }
+}
