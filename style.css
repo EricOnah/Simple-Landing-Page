@@ -188,9 +188,9 @@ h2 {
 
   .card {
     width: 300px;
-    margin: 0 auto;
   }
   .items {
     width: 100%;
+    margin: 0 auto;
   }
 }
