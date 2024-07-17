@@ -195,4 +195,16 @@ h2 {
     transform: translate(50%, 50%, 50%, 80%);
     right: 35px;
   }
+
+  .mfooter {
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+  .footer-text {
+    position: relative;
+    right: 45px;
+  }
+  .twitter {
+    font-size: 1rem !important;
+  }
 }
